@@ -1,0 +1,46 @@
+{% extends 'back/base_main.html' %}
+
+{% block title %}
+    后台——文章分类
+{% endblock %}
+
+{% block main_panel %}
+    <div class="main-panel">
+        <div class="content">
+            <div class="card-header" style="font-size: 18px">
+                分类列表
+                <a class="btn btn-info" style="float: right;"
+                   href="{{ url_for('back.articles_category_add') }}">添加分类</a>
+            </div>
+            <div class="card-body">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">分类</th>
+                        <th scope="col">删除</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for type in types %}
+                        <tr>
+                            <td>{{ type.at_name }}</td>
+                            <td>
+                                <a href="{{ url_for('back.del_type',id=type.id) }}" class="la la-times"></a>
+                            </td>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block art_type %}
+    {{ num }}
+{% endblock %}
+
+{% block ac_type %}
+    active
+{% endblock %}

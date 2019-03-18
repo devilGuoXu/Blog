@@ -1,0 +1,49 @@
+{% extends 'back/base_main.html' %}
+
+{% block title %}
+    后台——用户设置
+{% endblock %}
+
+{% block main_panel %}
+    <div class="main-panel">
+        <div class="content">
+            <div class="card-header" style="font-size: 18px">
+                用户设置
+                <a class="btn btn-info" style="float: right;"
+                   href="{{ url_for('back.articles_list') }}">返回</a>
+            </div>
+            <div class="card-body">
+                <form action="" method="post">
+                    <div class="form-group form-inline">
+                        <label for="inlineinput" class="col-form-label">用户昵称：</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control input-full" id="inlineinput" name="title"
+                                   placeholder="用户昵称...">
+                        </div>
+                    </div>
+                    <div class="form-group form-inline">
+                        <label for="inlineinput" class="col-form-label">真实姓名：</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control input-full" id="inlineinput" name="desc"
+                                   placeholder="真实姓名...">
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <label>性别：</label>
+                        <label class="form-radio-label ml-5">
+                            <input class="form-radio-input" type="radio" name="optionsRadios" value="" checked="">
+                            <span class="form-radio-sign">男</span>
+                        </label>
+                        <label class="form-radio-label ml-3">
+                            <input class="form-radio-input" type="radio" name="optionsRadios" value="">
+                            <span class="form-radio-sign">女</span>
+                        </label>
+                    </div>
+                    <div class="card-action">
+                        <input type="submit" class="btn btn-success">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

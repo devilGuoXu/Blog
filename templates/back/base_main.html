@@ -1,0 +1,127 @@
+{% extends 'back/base.html' %}
+
+{% block css %}
+    <link rel="stylesheet" href="/static/back/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="/static/back/css/ready.css">
+    <link rel="stylesheet" href="/static/back/css/demo.css">
+{% endblock %}
+
+{% block main_header %}
+    <div class="main-header">
+        <div class="logo-header">
+            <i class="la la-home"></i>
+            <a href="{{ url_for('web.index') }}" class="logo">
+                网站站点首页
+            </a>
+            <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
+                    data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <button class="topbar-toggler more"><i class="la la-ellipsis-v"></i></button>
+        </div>
+        <nav class="navbar navbar-header navbar-expand-lg">
+            <div class="container-fluid">
+
+                <form class="navbar-left navbar-form nav-search mr-md-3" action="">
+                    <div class="input-group">
+                        <input type="text" placeholder="搜索 ..." class="form-control">
+                        <div class="input-group-append">
+								<span class="input-group-text">
+									<i class="la la-search search-icon"></i>
+								</span>
+                        </div>
+                    </div>
+                </form>
+                <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+                    <li class="nav-item dropdown hidden-caret">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="la la-github"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://devilguoxu.github.io/">我的hexo博客</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://github.com/devilGuoXu">我的GitHub</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+                            <img src="/static/back/img/profile.png" alt="user-img" width="36" class="img-circle">
+                            <span>GuoXu</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li>
+                                <div class="user-box">
+                                    <div class="u-img"><img src="/static/back/img/profile.png" alt="user"></div>
+                                    <div class="u-text">
+                                        <h4>GuoXu</h4>
+                                        <p class="text-muted">464346584@qq.com</p>
+                                        <a href="{{ url_for('back.user_settings') }}"
+                                           class="btn btn-rounded btn-danger btn-sm">用户设置</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="{{ url_for('back.change_password') }}">
+                                <i class="ti-settings"></i>修改密码</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="{{ url_for('back.logout') }}"><i class="fa fa-power-off"></i>
+                                退出登录</a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+{% endblock %}
+
+{% block sidebar %}
+    <div class="sidebar">
+        <div class="scrollbar-inner sidebar-wrapper">
+            <ul class="nav">
+                <li class="nav-item {% block ac_index %}{% endblock %}">
+                    <a href="{{ url_for('back.index') }}">
+                        <i class="la la-dashboard"></i>
+                        <p>技术支持</p>
+                    </a>
+                </li>
+                <li class="nav-item {% block ac_type %}{% endblock %}">
+                    <a href="{{ url_for('back.articles_category') }}">
+                        <i class="la la-table"></i>
+                        <p>文章分类</p>
+                        <span class="badge badge-count">{% block art_type %}{% endblock %}</span>
+                    </a>
+                </li>
+                <li class="nav-item {% block ac_list %}{% endblock %}">
+                    <a href="{{ url_for('back.articles_list') }}">
+                        <i class="la la-keyboard-o"></i>
+                        <p>文章列表</p>
+                        <span class="badge badge-count">{% block art_list %}{% endblock %}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
+
+{% block main_panel %}
+{% endblock %}
+
+{% block js %}
+    <script src="/static/back/js/core/jquery.3.2.1.min.js"></script>
+    <script src="/static/back/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="/static/back/js/core/popper.min.js"></script>
+    <script src="/static/back/js/core/bootstrap.min.js"></script>
+    <script src="/static/back/js/plugin/chartist/chartist.min.js"></script>
+    <script src="/static/back/js/plugin/chartist/plugin/chartist-plugin-tooltip.min.js"></script>
+    <script src="/static/back/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script src="/static/back/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+    <script src="/static/back/js/plugin/jquery-mapael/jquery.mapael.min.js"></script>
+    <script src="/static/back/js/plugin/jquery-mapael/maps/world_countries.min.js"></script>
+    <script src="/static/back/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="/static/back/js/ready.min.js"></script>
+    <script src="/static/back/js/demo.js"></script>
+{% endblock %}

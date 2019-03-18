@@ -1,0 +1,30 @@
+{% extends 'back/base_main.html' %}
+
+{% block title %}
+    后台——添加分类
+{% endblock %}
+
+{% block main_panel %}
+    <div class="main-panel">
+        <div class="content">
+            <div class="card-header" style="font-size: 18px">
+                分类
+                <a class="btn btn-info" style="float: right;"
+                   href="{{ url_for('back.articles_category') }}">返回</a>
+            </div>
+            <div class="card-body">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label style="font-size: 16px">分类名称：</label>
+                        <input class="form-control" id="inlineinput" placeholder="分类..." name="art_type">
+                        <small id="emailHelp" style="color: red">{{ error }}</small>
+                    </div>
+                    <div class="card-action">
+                        <input type="submit" class="btn btn-success">
+{#                        <button class="btn btn-danger">取消</button>#}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
