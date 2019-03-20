@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eccbdf77-35c5-4669-b1d2-e3d262e397a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Blog$manage.coverage" NAME="manage Coverage Results" MODIFIED="1552839886741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dropdown-item</find>
+      <find>copyright</find>
+      <find>url</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/static/back/css/style.css" />
+        <option value="$PROJECT_DIR$/static/back/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/static/back/js/vector.js" />
+        <option value="$PROJECT_DIR$/templates/back/register.html" />
+        <option value="$PROJECT_DIR$/templates/back/login.html" />
+        <option value="$PROJECT_DIR$/templates/back/dashboard.html" />
+        <option value="$PROJECT_DIR$/templates/back/base.html" />
+        <option value="$PROJECT_DIR$/templates/back/categories.html" />
+        <option value="$PROJECT_DIR$/static/back/css/jquery.mCustomScrollbar.css" />
+        <option value="$PROJECT_DIR$/static/back/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/static/back/css/ready.min.css" />
+        <option value="$PROJECT_DIR$/static/back/css/ready.css.map" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/utils/functions.py" />
+        <option value="$PROJECT_DIR$/templates/back/articles_list.html" />
+        <option value="$PROJECT_DIR$/templates/back/articles_category.html" />
+        <option value="$PROJECT_DIR$/templates/back/index.html" />
+        <option value="$PROJECT_DIR$/back/models.py" />
+        <option value="$PROJECT_DIR$/templates/back/articles_list_add.html" />
+        <option value="$PROJECT_DIR$/requirement.txt" />
+        <option value="$PROJECT_DIR$/templates/back/base_main.html" />
+        <option value="$PROJECT_DIR$/templates/back/articles_category_add.html" />
+        <option value="$PROJECT_DIR$/templates/back/user_settings.html" />
+        <option value="$PROJECT_DIR$/templates/back/change_password.html" />
+        <option value="$PROJECT_DIR$/back/views.py" />
+        <option value="$PROJECT_DIR$/static/web/js/cuf_run.js" />
+        <option value="$PROJECT_DIR$/static/web/js/cufon-yui.js" />
+        <option value="$PROJECT_DIR$/static/web/js/georgia.js" />
+        <option value="$PROJECT_DIR$/static/style.css" />
+        <option value="$PROJECT_DIR$/static/web/style.css" />
+        <option value="$PROJECT_DIR$/static/web/css/style.css" />
+        <option value="$PROJECT_DIR$/static/web/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/static/web/js/jquery.js" />
+        <option value="$PROJECT_DIR$/templates/web/list.html" />
+        <option value="$PROJECT_DIR$/templates/web/base.html" />
+        <option value="$PROJECT_DIR$/static/web/css/base.css" />
+        <option value="$PROJECT_DIR$/static/web/css/info.css" />
+        <option value="$PROJECT_DIR$/static/web/css/m.css" />
+        <option value="$PROJECT_DIR$/templates/web/index.html" />
+        <option value="$PROJECT_DIR$/static/back/js/wangEditor.min.js" />
+        <option value="$PROJECT_DIR$/templates/web/base_main.html" />
+        <option value="$PROJECT_DIR$/web/views.py" />
+        <option value="$PROJECT_DIR$/templates/back/articles_list_alter.html" />
+        <option value="$PROJECT_DIR$/templates/web/info.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="55" />
+    <option name="width" value="683" />
+    <option name="height" value="762" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wordspace\Blog\static\web" />
+      <recent name="E:\wordspace\Blog\static\web\css" />
+      <recent name="E:\wordspace\Blog\static" />
+      <recent name="E:\wordspace\Blog\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wordspace\Blog\static\web\images" />
+      <recent name="E:\wordspace\Blog\static\web" />
+      <recent name="E:\wordspace\Blog\templates\web" />
+      <recent name="E:\wordspace\Blog\static\web\css" />
+      <recent name="E:\wordspace\Blog\templates\back" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver -p 80 -d" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eccbdf77-35c5-4669-b1d2-e3d262e397a8" name="Default Changelist" comment="" />
+      <created>1552035485008</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552035485008</updated>
+      <workItem from="1552035487060" duration="11710000" />
+      <workItem from="1552055678130" duration="5837000" />
+      <workItem from="1552093648405" duration="31151000" />
+      <workItem from="1552143018727" duration="5353000" />
+      <workItem from="1552268079371" duration="7824000" />
+      <workItem from="1552294767407" duration="12395000" />
+      <workItem from="1552354078243" duration="720000" />
+      <workItem from="1552361864953" duration="4286000" />
+      <workItem from="1552393290687" duration="2400000" />
+      <workItem from="1552440148131" duration="1181000" />
+      <workItem from="1552446783225" duration="116000" />
+      <workItem from="1552450641401" duration="4765000" />
+      <workItem from="1552474511167" duration="6242000" />
+      <workItem from="1552525993529" duration="674000" />
+      <workItem from="1552550300281" duration="5181000" />
+      <workItem from="1552556968014" duration="6784000" />
+      <workItem from="1552574000666" duration="5146000" />
+      <workItem from="1552613169599" duration="6890000" />
+      <workItem from="1552646335164" duration="7103000" />
+      <workItem from="1552698479504" duration="24609000" />
+      <workItem from="1552836011471" duration="5615000" />
+      <workItem from="1552873630963" duration="797000" />
+      <workItem from="1552882298643" duration="1059000" />
+      <workItem from="1553045304999" duration="86000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="157924000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21587302" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31950846" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29339477" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3809524" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31797236" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32936507" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32936507" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/web/images/img2.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/web/js/cuf_run.js" />
+    <entry file="file://$PROJECT_DIR$/static/web/js/cufon-yui.js" />
+    <entry file="file://$PROJECT_DIR$/static/web/js/georgia.js" />
+    <entry file="file://$PROJECT_DIR$/static/web/images/li.gif" />
+    <entry file="file://$PROJECT_DIR$/static/web/images/header_bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/back/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="3653" column="26" lean-forward="true" selection-start-line="3653" selection-start-column="26" selection-end-line="3653" selection-end-column="26" />
+          <folding>
+            <element signature="e#79636#79836#2#CSS" expanded="true" />
+            <element signature="e#80068#80217#2#CSS" expanded="true" />
+            <element signature="e#80783#80929#2#CSS" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/style.css" />
+    <entry file="file://$PROJECT_DIR$/templates/back/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/support.html" />
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/contact.html" />
+    <entry file="file://$PROJECT_DIR$/templates/web/blog.html" />
+    <entry file="file://$PROJECT_DIR$/static/web/js/silder.js" />
+    <entry file="file://$PROJECT_DIR$/static/web/css/about.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/book.css" />
+    <entry file="file://$PROJECT_DIR$/static/web/css/case.css" />
+    <entry file="file://$PROJECT_DIR$/static/web/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4046" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/learn.css" />
+    <entry file="file://$PROJECT_DIR$/static/web/css/mood.css" />
+    <entry file="file://$PROJECT_DIR$/static/web/css/new.css" />
+    <entry file="file://$PROJECT_DIR$/static/web/css/share.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/static/web/images/5849.png" />
+    <entry file="file://$PROJECT_DIR$/static/web/css/template.css" />
+    <entry file="file://$PROJECT_DIR$/static/web/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2070">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/js/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/static/web/js/modernizr.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/images/wx.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/back/articles_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="174" column="10" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/back/base_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/gbook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/images/newsbg03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/images/author2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8326">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/m.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret line="217" column="35" selection-start-line="217" selection-start-column="35" selection-end-line="217" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/css/info.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-339">
+          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/back/js/wangEditor.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2277" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/back/articles_list_alter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/base_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Xftp6/NetSarang Computer/Xftp/Temporary/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="23">
+            <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
